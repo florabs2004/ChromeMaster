@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "MasterChrome - Tab Manager",
+  "version": "1.0",
+  "description": "A premium dashboard to organize, manage, and clean up your open tabs and windows with satisfying animations.",
+  "chrome_url_overrides": {
+    "newtab": "newtab.html"
+  },
+  "permissions": [
+    "tabs",
+    "storage"
+  ],
+  "host_permissions": [
+    "<all_urls>"
+  ]
+}

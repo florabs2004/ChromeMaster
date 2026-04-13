@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MasterChrome - Beautiful Tab Dashboard</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <!-- Premium combination of Playfair Display for the serif elegance and Inter for the clean modern interface -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Confetti Canvas for celebration effects -->
+  <canvas id="confetti-canvas"></canvas>
+
+  <div class="app-container">
+    <!-- Refined Minimalist Header -->
+    <header class="greeting-header">
+      <div class="header-title-area">
+        <h1 class="greeting-title" id="greeting-text">Good afternoon</h1>
+        <p class="greeting-date" id="current-date">SUNDAY, APRIL 12, 2026</p>
+      </div>
+      <div class="header-credit-area">
+        <span class="credit-text"><span class="underline">A world of calm</span> by <span class="underline">Michelle Wang</span></span>
+      </div>
+    </header>
+
+    <div class="main-divider"></div>
+
+    <main class="main-dashboard">
+      <!-- Open Tabs Control Bar -->
+      <div class="dashboard-bar">
+        <div class="dashboard-bar-left">
+          <h2 class="section-title">Open tabs</h2>
+          <div class="title-line"></div>
+        </div>
+        <div class="dashboard-bar-right">
+          <span class="domain-count" id="domain-count">0 domains</span>
+          <span class="dot-separator">·</span>
+          <button id="btn-close-dupes-global" class="btn-close-dupes-global" style="display: none;">
+            ✨ Clean up <span id="global-dupes-count">0</span> duplicates
+          </button>
+          <button id="btn-close-all" class="btn-close-all">
+            <span class="close-icon">✕</span> Close all <span id="total-tabs-count">0</span> tabs
+          </button>
+        </div>
+      </div>
+
+      <!-- Dynamic Domain Cards Grid -->
+      <div class="cards-grid" id="cards-container">
+        <!-- Cards populated dynamically via JavaScript -->
+      </div>
+    </main>
+  </div>
+
+  <script src="confetti.js"></script>
+  <script src="newtab.js"></script>
+</body>
+</html>
