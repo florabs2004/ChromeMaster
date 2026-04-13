@@ -1,15 +1,15 @@
 :root {
-  --bg-color: #f9f8f5;
+  --bg-color: #f8f9fa;
   --card-bg: #ffffff;
-  --card-border: #eae5df;
-  --primary-orange: #e36843;
-  --primary-orange-light: #fbeee9;
-  --primary-orange-border: #f7dcd3;
-  --text-main: #2d2b2a;
-  --text-muted: #8d8a85;
-  --text-light: #b5b2ad;
-  --font-serif: 'Playfair Display', Georgia, serif;
-  --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  --card-border: #dadce0;
+  --primary-orange: #1a73e8;
+  --primary-orange-light: #e8f0fe;
+  --primary-orange-border: #d2e3fc;
+  --text-main: #202124;
+  --text-muted: #5f6368;
+  --text-light: #9aa0a6;
+  --font-serif: 'Google Sans', 'Open Sans', Roboto, sans-serif;
+  --font-sans: 'Google Sans', 'Open Sans', Roboto, sans-serif;
 }
 
 * {
