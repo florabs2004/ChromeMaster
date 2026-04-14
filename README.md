@@ -27,3 +27,6 @@ Since this is a highly customized, local developer extension, you can install it
 - **Automatic Domain Sorting**: Instantly groups tabs by specific tools (GitHub, YouTube, Google Workspace, Internal corporate Go Links, etc.).
 - **Duplicate Cleanup Engine**: Intelligently catches redundant links hidden behind tab-suspenders and allows instant one-click cleanup.
 - **Priority Display**: Automatically bubbles your top 3 most-active groups directly to the very top of the screen.
+
+  <img width="1298" height="384" alt="image" src="https://github.com/user-attachments/assets/1a19b9a5-09de-4b56-af91-99bd071a1dae" />
+
